@@ -20,8 +20,11 @@ cask "reckon" do
   # user's sheets, which uninstalling must never delete.
 
   caveats <<~EOS
-    Reckon is not yet signed with an Apple Developer ID, so macOS blocks it
-    the first time. Right-click Reckon in Applications and choose Open.
+    Reckon is not yet signed with an Apple Developer ID, so macOS blocks the
+    first launch. Open Reckon once and dismiss the warning, then go to
+    System Settings > Privacy & Security, scroll to Security and click
+    "Open Anyway". On macOS 14 and earlier, right-click the app and choose
+    Open instead.
 
     For the command-line tool:
       brew install appliedsyntax/tap/reckon-cli

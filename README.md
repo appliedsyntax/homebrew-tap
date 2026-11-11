@@ -32,8 +32,14 @@ brew install reckon-cli
 ## First launch of the Mac app
 
 The app is not yet signed with an Apple Developer ID, so macOS blocks it the
-first time. Right-click Reckon in Applications and choose Open, then confirm.
-You only need to do this once.
+first time:
+
+1. Open Reckon. macOS shows a warning; dismiss it.
+2. Go to System Settings › Privacy & Security, scroll down to Security and
+   click **Open Anyway**.
+
+On macOS 14 and earlier, right-click Reckon in Applications and choose Open
+instead. You only need to do this once.
 
 ## Upgrade and remove
 
