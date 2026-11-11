@@ -5,23 +5,27 @@ calculator: write math in plain words and see results next to each line.
 
 ## Install
 
+Add the tap and tell Homebrew you trust it (Homebrew 7 and later will not
+load third-party taps until you do; older versions have no `brew trust`
+command and can skip that line):
+
+```bash
+brew tap appliedsyntax/tap
+```
+
+```bash
+brew trust appliedsyntax/tap
+```
+
 The Mac app:
 
 ```bash
-brew install --cask appliedsyntax/tap/reckon
+brew install --cask reckon
 ```
 
 The command-line tool (macOS and Linux, built from source):
 
 ```bash
-brew install appliedsyntax/tap/reckon-cli
-```
-
-Or add the tap once and use the short names:
-
-```bash
-brew tap appliedsyntax/tap
-brew install --cask reckon
 brew install reckon-cli
 ```
 
