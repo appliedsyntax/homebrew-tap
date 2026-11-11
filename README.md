@@ -5,29 +5,21 @@ calculator: write math in plain words and see results next to each line.
 
 ## Install
 
-Add the tap and tell Homebrew you trust it (Homebrew 7 and later will not
-load third-party taps until you do; older versions have no `brew trust`
-command and can skip that line):
-
-```bash
-brew tap appliedsyntax/tap
-```
-
-```bash
-brew trust appliedsyntax/tap
-```
-
 The Mac app:
 
 ```bash
-brew install --cask reckon
+brew install --cask appliedsyntax/tap/reckon
 ```
 
 The command-line tool (macOS and Linux, built from source):
 
 ```bash
-brew install reckon-cli
+brew install appliedsyntax/tap/reckon-cli
 ```
+
+Using the full name adds this tap and, on Homebrew 6 and later, trusts just
+that one package. To use the short names (`reckon`, `reckon-cli`) instead,
+run `brew tap appliedsyntax/tap` and `brew trust appliedsyntax/tap` first.
 
 ## First launch of the Mac app
 
