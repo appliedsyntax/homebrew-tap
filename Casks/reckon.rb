@@ -1,6 +1,6 @@
 cask "reckon" do
-  version "0.2.1"
-  sha256 "1d2e5bb778ed48f5cd5498d1a099149eee938ca71430d1ac8dd030a919d5de3f"
+  version "0.3.0"
+  sha256 "d3097a2575de6e872ac8f001d68fc8e4b557fb98079cfb416b5ef1e1d475ab65"
 
   url "https://github.com/appliedsyntax/reckon/releases/download/v#{version}/Reckon-#{version}-macos-universal.dmg"
   name "Reckon"
