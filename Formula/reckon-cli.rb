@@ -1,8 +1,8 @@
 class ReckonCli < Formula
   desc "Natural-language calculator for the command-line"
   homepage "https://github.com/appliedsyntax/reckon"
-  url "https://github.com/appliedsyntax/reckon/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "ed794bf429ca9cc9c87e700c3fcdf15386c88144521d7b99a35e738d010e8c52"
+  url "https://github.com/appliedsyntax/reckon/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "6e822003db00f9e73aceb204ada1e2b86b021008ac19594640753027543f2093"
   license "MIT"
   head "https://github.com/appliedsyntax/reckon.git", branch: "main"
 
